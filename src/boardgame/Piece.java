@@ -12,14 +12,4 @@ public abstract class Piece {
     protected Board getBoard() {
         return board;
     }
-
-    public abstract Piece[][] possibleMoves();
-
-    public boolean possibleMove(Position position) {
-        return true;
-    }
-
-    public boolean isThereAnyPossibleMove() {
-        return true;
-    }
 }
